@@ -1,0 +1,8 @@
+<div>
+  <ul>
+    <button mat-flat-button (click)="playDate($event)">PLAY</button>
+    <button mat-flat-button color="white" *ngFor="let index of lastDay" (click)="onClickMe(index)">
+      {{index}}
+    </button>
+  </ul>
+</div>

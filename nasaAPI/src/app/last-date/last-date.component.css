@@ -1,0 +1,9 @@
+button:hover, button:focus {
+    color: rgb(246, 181, 0);
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+button:active {
+    border-color: blueviolet;
+}
